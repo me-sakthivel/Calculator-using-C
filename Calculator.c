@@ -10,26 +10,26 @@ void main ()
       scanf("%f" , &a);
       scanf("%f" , &b);
       printf("+,-,*,/");
-      scanf("%c" , &c);
+      scanf("%d" , &c);
 
       switch (c)
       { 
-          case '+':
+          case (1):
       {
           printf("%f",(a+b));
           break;
       }
-      case '-':
+      case (2):
       {
           printf("%f", (a-b));
           break;
       }
-      case '*':
+      case (3):
       {
           printf("%f", (a*b));
           break;
       }
-      case '/':
+      case (4):
       {
           printf("%f",(a/b));
           break;
