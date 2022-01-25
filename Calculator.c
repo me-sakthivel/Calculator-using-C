@@ -9,26 +9,27 @@ void main ()
       printf("Enter the two numbers\n");
       scanf("%f" , &a);
       scanf("%f" , &b);
-      scanf("%d" , &c);
+      printf("+,-,*,/");
+      scanf("%c" , &c);
 
       switch (c)
       { 
-          case 1:
+          case '+':
       {
           printf("%f",(a+b));
           break;
       }
-      case 2:
+      case '-':
       {
           printf("%f", (a-b));
           break;
       }
-      case 3:
+      case '*':
       {
           printf("%f", (a*b));
           break;
       }
-      case 4:
+      case '/':
       {
           printf("%f",(a/b));
           break;
