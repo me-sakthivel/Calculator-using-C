@@ -1,16 +1,11 @@
-#include<stdio.h>
-
-void main ()
+#include <stdio.h>
+#include <conio.h>
+int main()
 {
      float a,b;
      int c;
-      printf("------------NOTE----------- \n");
-      printf("You can able to do one opration at a time \n");
-      printf("Enter the two numbers\n");
-      scanf("%f" , &a);
-      scanf("%f" , &b);
-      printf("+,-,*,/");
-      scanf("%d" , &c);
+      printf("------------NOTE----------- \n"You can able to do one opration at a time\n Eter the two numbers\n");
+      scanf("%f%f%d,a&,&b,&c);
 
       switch (c)
       { 
@@ -42,4 +37,6 @@ void main ()
       }
 
     }
-}
+            getch();
+            return 0;
+            }
