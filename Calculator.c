@@ -1,11 +1,10 @@
 #include <stdio.h>
-#include <conio.h> 
 int main ()
 {
     float a,b;
     int c;
     printf("Enter the two numbers \n Enter the num A&B");
-    scanf("%f%f%d",&a,&b,&c);\
+    scanf("%f%f%d",&a,&b,&c);
 
     switch (c)
     {
